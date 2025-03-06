@@ -1,26 +1,26 @@
-﻿Table,Field,Description,,,,,,,,,,,,,,,,,,,
-Customer_Flight_Activity,Loyalty_Number,Customer's unique loyalty number,,Loyalty_Number,Country,Province,City,Postal_Code,Gender,Education,Salary,Marital_Status,Loyalty_Card,CLV,Enrollment_Type,Enrollment_Year,Enrollment_Month,Cancellation_Year,Cancellation_Month,,"Loyalty_Number, Country, Province, City, Postal_Code, Gender, Education, Salary, Marital_Status, Loyalty_Card, CLV, Enrollment_Type, Enrollment_Year, Enrollment_Month, Cancellation_Year, Cancellation_Month"
-,Year,Year of the period,,,,,,,,,,,,,,,,,,,
-,Month,Month of the period,,,,,,,,,,,,,,,,,,,
-,Total_Flights,Sum of Flights Booked (all tickets purchased in the period),,,,,,,,,,,,,,,,,,,"Loyalty_Number, Country, Province, City, Postal_Code, Gender, Education, Salary, Marital_Status, Loyalty_Card, CLV, Enrollment_Type, Enrollment_Year, Enrollment_Month, Cancellation_Year, Cancellation_Month"
-,Distance,Flight distance traveled in the period (km),,,,,,,,,,,,,,,,,,,
-,Points_Accumulated,Loyalty points accumulated in the period,,,,,,,,,,,,,,,,,,,
-,Points_Redeemed,Loyalty points redeemed in the period,,,,,,,,,,,,,,,,,,,
-,Dollar_Cost_Points_Redeemed,Dollar equivalent for points redeemed in the period in CDN,,,,,,,,,,,,,,,,,,,
-Table,Field,Description,,,,,,,,,,,,,,,,,,,
-Customer_Loyalty_History,Loyalty_Number,Customer's unique loyalty number,,,,,,,,,,,,,,,,,,,
-,Country,Country of residence,,,,,,,,,,,,,,,,,,,
-,Province,Province of residence,,,,,,,,,,,,,,,,,,,
-,City,City of residence,,,,,,,,,,,,,,,,,,,
-,Postal_Code,Postal code of residence,,,,,,,,,,,,,,,,,,,
-,Gender,Gender,,,,,,,,,,,,,,,,,,,
-,Education,Highest education level (High school or lower > College > Bachelor > Master > Doctor),,,,,,,,,,,,,,,,,,,
-,Salary,Annual income,,,,,,,,,,,,,,,,,,,
-,Marital_Status,"Marital status (Single, Married, Divorced)",,,,,,,,,,,,,,,,,,,
-,Loyalty_Card,Loyalty card status (Star > Nova > Aurora),,,,,,,,,,,,,,,,,,,
-,CLV,Customer lifetime value - total invoice value for all flights ever booked by member,,,,,,,,,,,,,,,,,,,
-,Enrollment_Type,Enrollment type (Standard / 2018 Promotion),,,,,,,,,,,,,,,,,,,
-,Enrollment_Year,Year Member enrolled in membership program,,,,,,,,,,,,,,,,,,,
-,Enrollment_Month,Month Member enrolled in membership program,,,,,,,,,,,,,,,,,,,
-,Cancellation_Year,Year Member cancelled their membership,,,,,,,,,,,,,,,,,,,
-,Cancellation_Month,Month Member cancelled their membership,,,,,,,,,,,,,,,,,,,
+﻿Table,Field,Description
+Customer_Flight_Activity,Loyalty_Number,Customer's unique loyalty number
+,Year,Year of the period
+,Month,Month of the period
+,Total_Flights,Sum of Flights Booked (all tickets purchased in the period)
+,Distance,Flight distance traveled in the period (km)
+,Points_Accumulated,Loyalty points accumulated in the period
+,Points_Redeemed,Loyalty points redeemed in the period
+,Dollar_Cost_Points_Redeemed,Dollar equivalent for points redeemed in the period in CDN
+Table,Field,Description
+Customer_Loyalty_History,Loyalty_Number,Customer's unique loyalty number
+,Country,Country of residence
+,Province,Province of residence
+,City,City of residence
+,Postal_Code,Postal code of residence
+,Gender,Gender
+,Education,Highest education level (High school or lower > College > Bachelor > Master > Doctor)
+,Salary,Annual income
+,Marital_Status,"Marital status (Single, Married, Divorced)"
+,Loyalty_Card,Loyalty card status (Star > Nova > Aurora)
+,CLV,Customer lifetime value - total invoice value for all flights ever booked by member
+,Enrollment_Type,Enrollment type (Standard / 2018 Promotion)
+,Enrollment_Year,Year Member enrolled in membership program
+,Enrollment_Month,Month Member enrolled in membership program
+,Cancellation_Year,Year Member cancelled their membership
+,Cancellation_Month,Month Member cancelled their membership
